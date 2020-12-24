@@ -83,7 +83,7 @@ body {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5em;
-  color: #b7b7b7;
+  color: #676767;
 }
 @media only screen and (max-width: 575px) {
   body {
@@ -3550,7 +3550,7 @@ input::-moz-focus-inner {
   z-index: 1;
   -webkit-transition: ease-in 0.25s;
   transition: ease-in 0.25s;
-  font-family: "Philosopher", sans-serif;
+  font-family: 'Hind';
   background: #4776e6;
   font-size: 20px;
   padding: 10px 35px 9px;
@@ -8616,7 +8616,7 @@ a:hover, a:active {
   }
 }
 .work-brand-block.style-three .brands-link img {
-  opacity: 0.5;
+  /*opacity: 0.5;*/
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -12099,4 +12099,28 @@ a:hover, a:active {
 .footer-bottom-area .footer-logo-area {
   display: block;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .title-hide-mobile {
+    visibility: hidden;
+  }
+}
+
+.span-bold {
+  font-weight: bolder;
+  color: #333
+}
+
+/* The Magic */
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    height: 6em;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
 }

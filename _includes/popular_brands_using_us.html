@@ -8,32 +8,17 @@
                     <div class="col-12">
                         <!--~~ Start Brands Carousel ~~-->
                         <div class="swiper-container brands-carousel-two">
+                                                        <h2 class="title title-hide-mobile" 
+                                                        style="font-weight: 500;color:#333;text-align: -webkit-center!important;padding-bottom:20px;">
+                                                    Young professionals from schools across the nation.</h2>
                             <div class="swiper-wrapper">
+                                {% for image in page.school_imgs %}
                                 <div class="swiper-slide">
                                     <div class="brands-link">
-                                        <img src="assets/images/brand/two/1.png" alt="logo" />
+                                        <img src="{{ image.image_path }}" alt="logo" style="width:130px;" />
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="brands-link">
-                                        <img src="assets/images/brand/two/2.png" alt="logo" />
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="brands-link">
-                                        <img src="assets/images/brand/two/3.png" alt="logo" />
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="brands-link">
-                                        <img src="assets/images/brand/two/4.png" alt="logo" />
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="brands-link">
-                                        <img src="assets/images/brand/two/5.png" alt="logo" />
-                                    </div>
-                                </div>
+                                  {% endfor %}
                             </div>
                         </div>
                         <!--~./ end brands carousel ~-->
