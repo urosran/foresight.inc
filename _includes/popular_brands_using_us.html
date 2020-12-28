@@ -1,0 +1,29 @@
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        Start Work brand Block
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div class="work-brand-block style-three bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!--~~ Start Brands Carousel ~~-->
+                        <div class="swiper-container brands-carousel-two">
+                                                        <h2 class="title title-hide-mobile" 
+                                                        style="font-weight: 500;color:#333;text-align: -webkit-center!important;padding-bottom:20px;">
+                                                    Young professionals from schools across the nation.</h2>
+                            <div class="swiper-wrapper">
+                                {% for image in page.school_imgs %}
+                                <div class="swiper-slide">
+                                    <div class="brands-link">
+                                        <img src="{{ image.image_path }}" alt="logo" style="width:130px;" />
+                                    </div>
+                                </div>
+                                  {% endfor %}
+                            </div>
+                        </div>
+                        <!--~./ end brands carousel ~-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--~./ end popular brands block ~-->
