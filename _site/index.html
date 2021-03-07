@@ -1056,24 +1056,100 @@
                 </div>
             </div>
         </div>
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             Start Call To Action
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <div id="call-to-action" class="call-to-action bg-image bg-overlay-gradient"
-            style="background-image: url('assets/images/bg/action-bg.png');margin-top: 60px;">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center text-white">
-                        <h2 class="call-to-title">Sign up for early access today.</h2><!-- /.call-to-title -->
-                        <div class="action-btn-group">
-                            <!-- <a href="#" class="btn btn-default btn-white">Sign up for early access for free</a> -->
-                            <a class="btn btn-default btn-white typeform-share button" href="https://form.typeform.com/to/nnVNayJB?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">Sign Up</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-                        </div><!-- /.action-btn-group -->
-                    </div><!-- /.col-lg-8 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div>
-        <!--~~./ end call to action ~~-->
+<div id="call-to-action" class="call-to-action bg-image bg-overlay-gradient" style="background-image: url('assets/images/bg/action-bg.png');margin-top: 60px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-4 text-left text-white" style="width:unset;">
+                <h2 style="font-size: 2.8em;">No More Monthly Squarespace Bank Robbery. <br><br> Sign Up Today.</h2>
+                <!--                 <h4 style="padding-top:30px;font-size: 20px;">What's included:</h4>
+                <ul role="list" style="text-align: left;padding:0px 0px 0px 20px;font-size: 16px;">
+                    <li>Honest monthly prices</li>
+                    <li>Quick website building</li>
+                    <li>Tips on resume drafting</li>
+                </ul> -->
+            </div>
+            <div class="col-lg-7 col-md-7 text-left text-white" style="width:unset;">
+                <div class="action-btn-group" style="margin-top:0px;">
+                    <!--  -->
+                    <script type="text/javascript">
+                    var submitted = false;
+
+                    function SubmitNotice() {
+                        alert("Thank you so much! Our team will be in touch shortly to get you started!");
+                    }
+                    </script>
+                    <!-- https://www.developerdrive.com/add-google-forms-static-site/ -->
+                    <!-- add the link to where you wanna go after they finish the survey below    -->
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {SubmitNotice;}"></iframe>
+                    <!-- add the url of your google form (inspect the form window and Ctrl+F find a url for https://docs.google.com)-->
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLScmkvzfz_dkqKI-Z15G9dOnnwUvpHvuE6WDLV3jssmJekEcNA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                        <div class="row" style="margin:-15px 0px">
+                            <div class="col-md-6 form-div-box">
+                                <label class="form-label">FIRST NAME *</label>
+                                <input class="form-box" type="text" placeholder="" name="entry.1295484000" required>
+                            </div>
+                            <div class="col-md-6 form-div-box">
+                                <label class="form-label">LAST NAME *</label>
+                                <input class="form-box" type="text" placeholder="" name="entry.519722841" required>
+                            </div>
+                            <div class="col-md-6 form-div-box">
+                                <label class="form-label">EMAIL *</label>
+                                <input class="form-box" type="text" placeholder="" name="entry.1663492905" required>
+                            </div>
+                        </div>
+                        <div class="row" style="margin:-15px 0px; padding-top: 60px">
+                            <div class="col-md-12 col-lg-12" style="margin:-15px;margin:auto;">
+                                <!-- add the link to the webpage you want to redirect to above ^^    -->
+                                <button class="form-button" type="submit" onClick="SubmitNotice()">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div><!-- /.action-btn-group -->
+            </div><!-- /.col-lg-8 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div>
+<!--~~./ end call to action ~~-->
+<style type="text/css">
+.form-label {
+    color: white;
+}
+
+.form-box {
+    background-color: #ffffff;
+    border-color: #d0cfcb;
+    border-width: 2px;
+    border-style: solid;
+    transition: border-color .2s ease-in-out;
+    color: #222;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: text;
+    padding: 5px 0px 5px 10px;
+    min-width: 90%;
+
+}
+
+.form-div-box {
+    padding: 15px;
+    /*width:unset;*/
+
+}
+
+.form-button {
+    background: #fffefc;
+    color: #333;
+    min-width: 100%;
+    border-color: #fffefc;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 300;
+    min-height: 40px;
+}
+</style>
 
 
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
