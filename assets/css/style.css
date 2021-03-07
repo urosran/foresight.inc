@@ -2301,7 +2301,7 @@ img {
 .bg-overlay-gradient:before {
   content: "";
   position: absolute;
-  background: -webkit-linear-gradient(30deg, #0d294b, #0f2849);
+  background: -webkit-linear-gradient(-45deg, #4776e6, #8e54e9);
   width: 100%;
   height: 100%;
   left: 0;
